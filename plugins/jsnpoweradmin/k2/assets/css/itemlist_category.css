@@ -1,0 +1,50 @@
+/**
+ * @subpackage	jsnpoweradmin (JSN POERADMIN JoomlaShine - http://www.joomlashine.com)
+ * @copyright	Copyright (C) 2001 BraveBits,Ltd. All rights reserved.
+ **/
+
+#jsn-component-details div.k2FeedIcon a{
+	background: url("../images/fugue/feed.png") no-repeat scroll 50% 50% transparent;
+    display: block;
+    float: right;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+}
+
+#jsn-component-details div.itemListCategory{
+	background: none repeat scroll 0 0 #F7FAFE;
+    border: 1px solid #DDDDDD;
+    margin: 4px 0;
+    padding: 8px;
+}
+
+#jsn-component-details div.itemListCategory .catImage{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;    
+    float: left;
+    clear: both;
+}
+#jsn-component-details div.itemListCategory .catImage:hover{
+	margin: -1px !important;
+}
+
+#jsn-component-details div.itemListCategory div.catTitle {
+	float: left;	
+}
+
+#jsn-component-details div.itemListCategory div.catTitle .catTitleItemCounter {
+	display: inline-block !important;
+}
+
+#jsn-component-details div.itemListCategory div.catDescription {
+	margin-top: 4px !important;
+}
+
+#jsn-component-details div.itemListCategory div.catDescription:hover {
+	margin-top: 2px !important;
+}
+
+div.itemContainer {float:left;}
+div.itemContainerLast {}

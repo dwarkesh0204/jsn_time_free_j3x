@@ -1,0 +1,235 @@
+.mailchimp .jsn-items-list-mailchimp{
+	width: 100%;
+	display: none;
+	margin: 0 auto !important;
+	position: relative;
+}
+/*.mailchimp .jsn-items-list-mailchimp tr{
+	height:auto;
+	text-align: center;
+}
+.mailchimp .jsn-items-list-mailchimp tr td{
+	padding: 5px;
+	border-bottom: 1px dotted #e5e5e5;
+	border-right: 1px dotted #e5e5e5;
+}
+.mailchimp .jsn-items-list-mailchimp tr th{
+	border-bottom: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}*/
+.jsn-master .jsn-bootstrap .MailchimpActive{
+	background: #e6e6e6;
+}
+.jsn-master .jsn-bootstrap .MailchimpUnActive{
+	background: #FFF;
+}
+.jsn-master .jsn-bootstrap .showicon{
+	float: right;
+	background: url('../images/down.png') no-repeat;
+	padding: 13px;
+	background-size: 10px 10px;
+	padding-left: 12px;
+	cursor: pointer;
+}
+.jsn-master .jsn-bootstrap .upicon{
+	float: right;
+	background: url('../images/up.png') no-repeat;
+	padding: 13px;
+	background-size: 10px 10px;
+	padding-left: 12px;
+	cursor: pointer;
+}
+.jsn-master .jsn-bootstrap .sucessMailchimp{
+	background: url('../images/success.png') no-repeat;
+	padding-top: 7px;
+	background-size: 20px 20px;
+	float: left;
+	padding-left: 12px;
+	width: 20px;
+	height: 20px;
+}
+.jsn-master .jsn-bootstrap .showMailchimp{
+	position: absolute;
+	text-indent: -10000px;
+	width: 100%;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	bottom: 0;
+
+}
+.jsn-master .jsn-bootstrap .hiddeMailchimp{
+	position: absolute;
+	text-indent: -10000px;
+	width: 100%;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	bottom: 0;
+
+}
+/*.jsn-master .jsn-bootstrap .mailchimp{
+	display: inline-block;
+	line-height: 14px;
+
+}*/
+.jsn-master .jsn-bootstrap .logoMailchimp{
+	height: 40px;
+	width: 40px;
+	background: url("../images/mailchimp1.png") no-repeat;
+	background-size: 31px 33px;
+	float: left;
+}
+.jsn-master .jsn-bootstrap .fieldMailchimp{
+	height: auto;
+}
+.jsn-master .jsn-bootstrap .use_mailchimp{
+	width: 83px;
+	border: 1px solid #CCC;
+	float: left;
+	text-align: center;
+}
+.jsn-master .jsn-bootstrap .no{
+	border-radius: 5px 0px 0px 5px;
+}
+.jsn-master .jsn-bootstrap .choiseNo{
+	background: #bd362f;
+	color: #FFF;
+	border-color: #bd362f #bd362f #802420;
+}
+
+.jsn-master .jsn-bootstrap .yes{
+	border-radius: 0px 5px 5px 0px;
+}
+.jsn-master .jsn-bootstrap .choiseYes{
+	background: #51a351;
+	color: #FFF;
+	border-color: #51a351 #51a351 #387038;
+}
+.jsn-master .jsn-bootstrap .usemailchimp{
+	display: none;
+}
+.jsn-master .jsn-bootstrap .validate_api{
+	display: none;
+}
+
+.jsn-master .jsn-bootstrap .mailchimp_err{
+	color: red;
+	display: inline-block;
+}
+.jsn-master .jsn-bootstrap .mailchimp_success{
+	background: url('../images/success.png') no-repeat;
+	padding: 19px;
+	background-size: 25px 25px;
+	text-indent: -1000000px;
+	position: absolute;
+	margin-left: 10px;
+}
+.jsn-master .jsn-bootstrap .maichimploading{
+	display: none;
+	background: url('../images/loadding.gif') no-repeat;
+	padding: 19px;
+	background-size: 25px 25px;
+	text-indent: -1000000px;
+	position: absolute;
+	right: 120px;
+}
+.jsn-master .jsn-bootstrap .loadMC{
+	background: url('../images/loadding.gif') no-repeat;
+	background-size: 20px 20px;
+	padding: 10px;
+
+}
+/*.jsn-master .jsn-bootstrap .listmailchimp{
+	border: none;
+	height: auto;
+	padding: 5px;
+	margin: 0;
+}*/
+.jsn-master .jsn-bootstrap .listmailchimp li{
+	border: 1px solid #CCC;
+	margin-bottom: 2px;
+	padding: 10px;
+	border-radius: 3px;
+	list-style: none;
+	position: relative;
+	height: 21px;
+}
+.jsn-master .jsn-bootstrap .listmailchimp li:hover{
+	background: #e6e6e6;
+	text-decoration: none;
+}
+.jsn-master .jsn-bootstrap .editfield{
+	/*display: none;*/
+	/*margin-bottom: 20px;*/
+}
+/*.jsn-master .jsn-bootstrap .addmoreField{
+	margin-top:25px;
+	margin-left: 457px;
+}*/
+.jsn-master .jsn-bootstrap .saveField{
+	margin-top: 25px;
+	margin-right: 30px;
+	width: 49px;
+}
+.jsn-master .jsn-bootstrap .closeField{
+	margin-top: 25px;
+	width: 57px;
+}
+.jsn-master .jsn-bootstrap .otherfieldMailchimp{
+	margin: 0 auto;
+}
+.jsn-master .jsn-bootstrap .otherfieldMailchimp td{
+	border: none;
+	line-height: 2;
+}
+.jsn-master .jsn-bootstrap .otherfieldMailchimp input[type='text']{
+	width: 134px;
+	display: none;
+}
+.jsn-master .jsn-bootstrap .otherfieldMailchimp input[type='checkbox']{
+	margin: 0 auto;
+}
+.jsn-master .jsn-bootstrap .checkkey{
+	margin-left: 20px;
+}
+.jsn-master .jsn-bootstrap .checkkey{
+	margin-left: 20px;
+}
+.jsn-master .jsn-bootstrap .inline a{
+	line-height: 2;
+}
+/*.jsn-master .jsn-bootstrap .checkbox{
+	margin-right: 10px ;
+	margin-bottom: 3px;
+}*/
+.jsn-master .listmailchimp .icon-cancel{
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+	opacity:0;
+	cursor: pointer;
+}
+.jsn-master #email .control-label{
+	float: none;
+	margin-bottom: 20px;
+}
+.jsn-master #email .controls{
+	margin-left: 0px;
+}
+.jsn-master .showkey{
+	border-bottom: 1px dashed #bbb;
+	cursor: pointer;
+	line-height: 2;
+}
+.jsn-master .hideSelect{
+	display: none;
+}
+#mailchimp .input-block-level{
+	min-height: 28px;
+	box-sizing: border-box;
+}
+
+#mailchimp tbody{
+	border: none;
+}

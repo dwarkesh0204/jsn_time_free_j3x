@@ -1,0 +1,262 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+*::-moz-selection {
+	color: #FFF;
+	text-shadow: none;
+	background: none repeat scroll 0% 0% #ff3939;
+}
+a {
+	color: #ff3939;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #367952;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu li:hover,
+div.jsn-modulecontainer ul.menu-mainmenu li.active{
+	background: #ff3939;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+	color: #FFF;
+}
+div.jsn-modulecontainer ul.menu-mainmenu ul li.parent.active > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul li.parent:hover > a,
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul li.parent.active > a,
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul li.parent:hover > a,
+.jsn-direction-rtl #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li.parent.active > a,
+.jsn-direction-rtl #jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li.parent:hover > a  {
+	background: url(../../images/colors/red/arrow.png) no-repeat right center;	
+}
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu ul li.parent.active > a,
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-mainmenu ul li.parent:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul li.parent.active > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul li.parent:hover > a,
+#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li.parent.active > a,
+#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li.parent:hover > a  {
+	background: url(../../images/colors/red/arrow-rtl.png) no-repeat left center;	
+}
+/* =============== MODULE - POSITION TOOLBAR =============== */
+#jsn-topbar #jsn-pos-topbar #jsn-sitetoolspanel #jsn-sitetools-menu > li > a:hover,
+#jsn-menu .jsn-modulecontainer.display-dropdown:hover h3.jsn-moduletitle {
+	color: #ff3939;
+}
+/* =============== SITETOOL =============== */
+ul#jsn-sitetools-menu > li:hover > a {
+	color: #fff;
+	background: #ff3939;
+}
+#jsn-topbar #jsn-pos-topbar .login-topbar.jsn-modulecontainer h3:hover span,
+#jsn-topbar #jsn-pos-topbar #jsn-sitetoolspanel #jsn-sitetools-menu > li > a:hover,
+#jsn-topbar #jsn-pos-topbar #jsn-sitetoolspanel #jsn-sitetools-menu > li:hover > a {
+	color: #ff3939;
+	background: none;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+#jsn-page .link-action {
+	color: #ff3939;
+	border-bottom: 1px solid #ff3939;
+}
+#jsn-page .link-action:hover {
+	background-color: #ff3939;
+}
+/* ----- COLOR BUTTON ----- */
+.link-button.button-color {
+	background-color: #ff3939;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #ff3939;
+	border-right: 1px solid #42ab6f;
+}
+table.style-colorheader thead th:first-child {
+	border-left: 1px solid #ff3939;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #3ca469;
+	border-right: 1px solid #3ca469;
+}
+table.style-colorstripes thead th {
+	background-color: #50b67c;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #ff3939;
+}
+table.style-colorstripes tbody tr {
+	background-color: #8cdfaf;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #d4f4e2;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #ff3939;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #b0e5c7;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #2da15f;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #80cfa2;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #3ca469;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #50b67c;
+}
+.sectiontableheader {
+	background-color: #ff3939;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #ff3939;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- SOLID STYLE ----- */
+div.solid-1 div.jsn-modulecontainer_inner {
+	border: 1px solid #ddd;
+}
+div.solid-1 div.jsn-modulecontainer_inner{
+	color: #555;
+}
+div.solid-2 div.jsn-modulecontainer_inner{
+	background: #ff3939;
+	color: #fff;
+}
+div.solid-2 div.jsn-modulecontainer_inner h3.jsn-moduletitle {
+	color: #fff;
+}
+div.solid-2 div.jsn-modulecontainer_inner {
+	background-color: #ff3939;
+}
+/* ----- LIGHTBOX STYLE ----- */
+div.lightbox-2 h3.jsn-moduletitle{
+
+}
+div.lightbox-2 h3.jsn-moduletitle span {
+	
+}
+/* ----- RICHBOX STYLE ----- */
+div.lightbox-2 div.jsn-modulecontainer_inner{
+	border-top: 3px solid #ff3939;
+}
+/* ========== DISPLAY INLINE/DROP DOWN MODULE ========== */
+.jsn-modulecontainer[class*="display-"] form .search input.inputbox:focus + [class*="jsn-icon"] {
+	color: #555;
+}
+/* K2 COMPONENT*/
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .moduleItemTitle{
+	display: block;
+	position: absolute;
+	bottom: -11px;
+	left: 0;
+	right: 0;
+	color: #FFF;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 18px;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.2;
+	margin: 0;
+}
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li:hover .moduleItemTitle {
+	background: #ff3939;
+}
+div.k2ItemsBlock div.moduleItemTitle:hover,
+div.k2ItemsBlock div.moduleItemTitle a:hover,
+div.k2ItemsBlock ul li a.moduleItemTitle:hover {
+	color: #ff3939;
+}
+div.arrow-style h3.jsn-moduletitle span:before {
+	border-left: 3px solid #ff3939;
+}
+#k2Container .latestItemList div.latestItemView a:hover,
+#k2Container .latestItemList h2.latestItemTitleList a:hover{
+	color: #ff3939;
+}
+#k2Container .latestItemList h2.latestItemTitleList a:hover{
+	color: #ff3939;
+}
+body#jsn-master .jsn-gallery .galleria-image-nav .galleria-image-nav-right,
+body#jsn-master .jsn-gallery .galleria-image-nav .galleria-image-nav-left {
+	background: #ff3939;
+}
+/* ============================== SIDE-MENU/TREE MENU/TOP MENU STYLES ============================== */
+/* ----- HOVER/ACTIVE STATE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a,
+div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer ul.menu-topmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-topmenu li.active > a {
+	color: #5f5f5f;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul li.parent.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu ul li.parent:hover > a {
+	background: url(../../images/colors/red/arrow.png) no-repeat right center;	
+}
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu ul li.parent.active > a,
+.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu ul li.parent:hover > a {
+	background: url(../../images/colors/red/arrow-rtl.png) no-repeat left center;	
+}
+ul.menu-treemenu ul li.active > a > span {
+	background: url(../../images/colors/red/bullet.png) no-repeat left center;
+}
+div.jsn-modulecontainer ul.menu-mainmenu.jsn-menu-mobile > li:hover> a span.jsn-menutitle,
+div.jsn-modulecontainer ul.menu-mainmenu.jsn-menu-mobile > li.active> a span.jsn-menutitle {
+	color: #ff3939;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* PAGE PAGINATION */
+ul.jsn-pagination a:hover,
+ul.jsn-pagination span:hover{
+	background-color: #ff3939;
+	color: #fff !important;
+}
+ul.jsn-pagination a{
+	color: #666666 !important;
+}
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .moduleItemDateCreated,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .moduleItemCategory,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .modulek2Comment,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .moduleItemHits,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .moduleItemTags,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-horizontal-1 ul li .K2MetaData .moduleItemReadMore,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .moduleItemDateCreated,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .moduleItemCategory,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .modulek2Comment,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .moduleItemHits,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .moduleItemTags,
+.jsn-modulecontent .k2ItemsBlock.thumbnails-vertical-1 ul li .K2MetaData .moduleItemReadMore,
+.thumbnails-vertical-1 .k2ItemsBlock .moduleItemCategory {
+	background: rgba(255,57,57,0.9);
+}
+.blog .items-leading .page-header a:hover,
+.blog .item .page-header a:hover,
+.pb-element-articlelist .title a.title:hover,
+.meta-data-wrapper .category a,
+.meta-data-wrapper .category a:hover {
+	color: #ff3939;
+}
