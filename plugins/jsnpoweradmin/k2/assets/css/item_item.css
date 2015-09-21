@@ -1,0 +1,132 @@
+/**
+ * @subpackage	jsnpoweradmin (JSN POERADMIN JoomlaShine - http://www.joomlashine.com)
+ * @copyright	Copyright (C) 2001 BraveBits,Ltd. All rights reserved.
+ **/
+
+#jsn-component-details .itemToolbar{
+	background: none repeat scroll 0 0 #F7FAFE;
+	border-bottom: 1px dotted #CCCCCC;
+	border-top: 1px dotted #CCCCCC;
+	margin: 16px 0 0;
+	padding: 2px 0;
+}
+#jsn-component-details .itemToolbar li{
+	display: inline-block !important;
+}
+
+#jsn-component-details  .itemRating .itemRatingForm, .itemRatingLog, .itemRatingList{
+	display: inline-block !important; 	
+}
+
+#jsn-component-details  .itemRating .itemRatingForm li{
+	display: inline-block !important;
+}
+  
+#jsn-component-details .item-social-sharing>div{
+	display: inline-block !important;
+}
+
+#jsn-component-details div.itemContentFooter {
+    border-top: 1px solid #DDDDDD;
+    color: #999999;
+    display: block;
+    margin: 16px 0 4px;
+    padding: 4px;
+    text-align: right;
+}
+
+#jsn-component-details div.itemContentFooter .itemDateModified {
+    float: right;
+    text-align: right;
+}
+
+#jsn-component-details div.itemContentFooter .itemHits {
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+
+#jsn-component-details div.itemCategory {
+    border-bottom: 1px dotted #CCCCCC;
+   
+}
+#jsn-component-details div.itemCategory span{
+	font-weight: bold;
+}
+
+#jsn-component-details div.itemAttachments span{
+	font-weight: bold;
+}
+
+
+#jsn-component-details div.itemAttachments {
+    border-bottom: 1px dotted #CCCCCC;
+   
+}
+
+#jsn-component-details div.itemCategory:hover,div.itemAttachments:hover {    
+    margin-bottom: -1px !important;
+   
+}
+
+
+#jsn-component-details div.itemAuthorBlock {
+    background: none repeat scroll 0 0 #F7FAFE;
+    border: 1px solid #DDDDDD;
+    margin: 4px 0 16px !important;
+    padding: 8px;
+}
+#jsn-component-details div.itemAuthorBlock:hover {    
+    margin: 3px -1px 15px !important;    
+}
+#jsn-component-details div.itemAuthorBlock .itemAuthorAvatar{
+	width: 40px;
+	height: 40px;
+}
+#jsn-component-details div.itemAuthorBlock .itemAuthorInfo{
+    padding-left: 55px;    
+}
+
+#jsn-component-details div.itemAuthorImage{
+	float:left;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;    
+    float: left;
+    margin: 0 8px 0 0;
+    padding: 4px;
+}
+
+#jsn-component-details div.itemAuthorBlock div.itemAuthorImage:hover{	
+    margin: -1px 7px -1px -1px !important;    
+}
+
+#jsn-component-details div.itemVideo{
+	margin-bottom: 6px !important;
+}
+#jsn-component-details div.itemComments {
+    background: none repeat scroll 0 0 #F7FAFE;    
+    
+}
+#jsn-component-details div.itemComments textarea{
+    background: none repeat scroll 0 0 #F7FAFE;    
+    
+}
+
+#jsn-component-details div..commentsFormPosition>h3{
+	font-weight: bold;
+}
+
+#jsn-component-details div..itemCommentsCounter{
+	font-weight: bold;
+}
+
+
+#jsn-component-details div..itemCommentsFormNotes {
+    border-top: 2px solid #CCCCCC;
+}
+#jsn-component-details div.itemCommentsFormNotes:hover {
+    margin-top: -3px !important; 
+}

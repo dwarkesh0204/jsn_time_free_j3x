@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site">
+	<name>JE Weather</name> 
+	<author>jExtensions.com</author> 
+	<creationDate>2012 October</creationDate> 
+	<copyright>jExtensions.com</copyright> 
+	<license>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</license> 
+	<authorEmail>support@jExtensions.com</authorEmail> 
+	<authorUrl>www.jExtensions.com</authorUrl> 
+	<version>2.5.0</version> 
+	<description>
+	<![CDATA[
+	<h1>JE Weather Module</h1>
+	
+	<div style="margin:0 0 0 10px; font-size:15px;">
+	<h2>Search for City Codes on <a href="http://weather.yahoo.com/" target="_blank">Yahoo.com</a> or <a href="http://www.weather.com/" target="_blank">Weather.com</a></h2>
+	Download more free extensions at <a href="http://jextensions.com" target="_blank">jExtensions.com</a>;
+	<br/><br/>Get support for this Joomla module on the official <a href="http://jextensions.com/joomla-weather-module/" target="_blank">JE Weather Module</a> page.</div><br/>
+	<div style="margin:0 0 0 10px; font-size:11px;">Credits: <a href="http://www.zazar.net/developers/jquery/zweatherfeed/" target="_blank" >Yahoo Weather</a></div>
+	<br/>
+		]]>
+	</description>
+	
+	<files>
+		<filename module="mod_je_weather">mod_je_weather.php</filename>
+		<filename>index.html</filename>
+		<folder>js/</folder>
+		<folder>php/</folder>
+	</files>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_weather/php">
+			<fieldset name="basic">
+				<field name="jQuery" type="list" default="1" label="jQuery" description="Enable or disable jQuery plugin on this module.">
+					<option value="1">jQuery Latest Version</option>
+					<option value="2">Disable jQuery Plugin</option>
+				</field>			
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="" />
+
+				<field type="spacer" default="Display Settings" />
+				
+				<field name="woeid" type="list" default="false" label="Location Identifier" description="Check the links in description to find city codes.">
+					<option value="true">Yahoo.com</option>
+					<option value="false">Weather.com</option>
+				</field>
+				
+				<field name="cityCode" type="textarea" cols="50" rows="5" default="UKXX0085" label="Location Code(s)"  description="Insert city code here. For multiple cities, please separet codes with coma. (ie. GMXX0007, UKXX0085, ITXX0067)" />
+				<field name="unit" type="list" default="c" label="Temperature" description="Display temperature in Celsius or Fahrenheit.">
+					<option value="c">Celsius</option>
+					<option value="f">Fahrenheit</option>
+				</field>
+				<field name="image" type="list" default="true" label="Weather Image" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="country" type="list" default="false" label="Country Code" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>				
+				<field name="highlow" type="list" default="true" label="High / Low" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="wind" type="list" default="true" label="Wind" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="humidity" type="list" default="false" label="Humidity" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="visibility" type="list" default="false" label="Visibility" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="sunrise" type="list" default="false" label="Sunrise Time" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="sunset" type="list" default="false" label="Sunset Time" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="forecast" type="list" default="false" label="Forecast" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+				<field name="forecastlink" type="list" default="false" label="Full Forecast Link" description="">
+					<option value="true">Enable</option>
+					<option value="false">Disable</option>
+				</field>
+
+				<field name="textColor" type="jscolor" default="#333333" label="Text Color" description="" />
+				<field name="oddColor" type="jscolor" default="#eeeeee" label="Odd Row Color" description="" />
+				<field name="evenColor" type="jscolor" default="#dddddd" label="Even Row Color" description="" />
+
+			</fieldset>		
+		</fields>
+	</config>
+</extension>

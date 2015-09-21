@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"New York, NY",
+		"city":"New York",
+		"state":"NY",
+		"state_name":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"10001",
+		"magic":"3",
+		"wmo":"99999",
+		"latitude":"40.75013351",
+		"longitude":"-73.99700928",
+		"elevation":"17.00000000"
+		},
+		"observation_location": {
+		"full":"Flatiron, New York, New York",
+		"city":"Flatiron, New York",
+		"state":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.743301",
+		"longitude":"-73.985466",
+		"elevation":"207 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNYNEWYO118",
+		"observation_time":"Last Updated on September 16, 2:51 AM EDT",
+		"observation_time_rfc822":"Wed, 16 Sep 2015 02:51:38 -0400",
+		"observation_epoch":"1442386298",
+		"local_time_rfc822":"Wed, 16 Sep 2015 02:51:46 -0400",
+		"local_epoch":"1442386306",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Clear",
+		"temperature_string":"72.7 F (22.6 C)",
+		"temp_f":72.7,
+		"temp_c":22.6,
+		"relative_humidity":"53%",
+		"wind_string":"Calm",
+		"wind_dir":"North",
+		"wind_degrees":353,
+		"wind_mph":0.2,
+		"wind_gust_mph":"2.5",
+		"wind_kph":0,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1026",
+		"pressure_in":"30.30",
+		"pressure_trend":"-",
+		"dewpoint_string":"55 F (13 C)",
+		"dewpoint_f":55,
+		"dewpoint_c":13,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"72.7 F (22.6 C)",
+		"feelslike_f":"72.7",
+		"feelslike_c":"22.6",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/NY/New_York.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNYNEWYO118",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.743301,-73.985466",
+		"nowcast":""
+	}
+}
